@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import TransferDollar from './task1';
+import CalcOld from './task2';
+import Calculator from './task3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <TransferDollar/>
+    <CalcOld/>
+    <Calculator/>
+    <a href='https://github.com/AirenSoft/OvenMediaEngine/?gclid=Cj0KCQjwntCVBhDdARIsAMEwAClB19z3zsEOYwruqseulBDH1kXTEnc6cSDmokfCLiRd9iopJ8QpM3QaAhVKEALw_wcB'>Git Hub</a>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
